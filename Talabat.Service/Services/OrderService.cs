@@ -52,9 +52,6 @@ namespace Talabat.Service.Services
 
 			var order = new Order(BuyerEmail, Shippingaddress, ItemsForOrders, deliverymethod, SubTotal);
 
-
-			var sum = 1 + 2;
-
 			return order;
 			
 

@@ -8,7 +8,10 @@ namespace Talabat.Core.Entities.OrderAggregate
 {
     public class ProductInfo
     {
-
+		public ProductInfo()
+		{
+				
+		}
 		public ProductInfo(int prodId ,string prodName , string ProdUrl)
 		{
 			ProductId = prodId;
