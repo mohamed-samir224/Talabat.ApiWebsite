@@ -59,8 +59,7 @@
               "ViewState": "AgIAAB0AAAAAAAAAAIAwwCwAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-17T22:04:26.824Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -73,8 +72,7 @@
               "ViewState": "AgIAAEMAAAAAAAAAAAAowEsAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-18T00:33:24.003Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -87,8 +85,7 @@
               "ViewState": "AgIAACIAAAAAAAAAAAAewDQAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-17T22:24:41.878Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -104,8 +101,7 @@
               "RelativeToolTip": "..\\Talabat.Core\\Specifications\\ProductSpecs\\ProductParams.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-18T00:38:00.49Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-18T00:38:00.49Z"
             },
             {
               "$type": "Document",
@@ -115,7 +111,7 @@
               "RelativeDocumentMoniker": "..\\Talabat.Core\\Specifications\\ProductSpecs\\CountAfterFilterationNdSortingWithoutPaginationForProduct.cs",
               "ToolTip": "C:\\Users\\DELL 5540\\source\\repos\\Talabat.APIs.sln\\Talabat.Core\\Specifications\\ProductSpecs\\CountAfterFilterationNdSortingWithoutPaginationForProduct.cs",
               "RelativeToolTip": "..\\Talabat.Core\\Specifications\\ProductSpecs\\CountAfterFilterationNdSortingWithoutPaginationForProduct.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAWwAsAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAIAywAsAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-08-17T23:35:14.852Z",
               "EditorCaption": ""
@@ -130,8 +126,7 @@
               "RelativeToolTip": "..\\Talabat.Core\\Specifications\\ProductSpecs\\ProductWithBrandAndCategorySpecifications.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAAAwAoAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T23:35:21.777Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T23:35:21.777Z"
             },
             {
               "$type": "Document",
@@ -143,8 +138,7 @@
               "RelativeToolTip": "..\\Talabat.Core\\Specifications\\BaseSpecifications.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T22:25:37.181Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T22:25:37.181Z"
             },
             {
               "$type": "Document",
@@ -156,8 +150,7 @@
               "RelativeToolTip": "Helpers\\Pagination.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAwA8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T22:23:47.024Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T22:23:47.024Z"
             },
             {
               "$type": "Document",
@@ -169,8 +162,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAC4AAAAAAAAAAAAQwA4AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T23:29:30.075Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T23:29:30.075Z"
             },
             {
               "$type": "Document",
@@ -182,8 +174,7 @@
               "RelativeToolTip": "..\\Talabat.Core\\Specifications\\ISpecifications.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T22:25:19.206Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T22:25:19.206Z"
             },
             {
               "$type": "Document",
@@ -195,8 +186,7 @@
               "RelativeToolTip": "..\\Talabat.Core\\Repositories.Contracts\\IGenaricRepository.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAewBQAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-17T22:05:13.257Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-17T22:05:13.257Z"
             }
           ]
         }
