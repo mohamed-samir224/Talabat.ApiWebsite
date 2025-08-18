@@ -38,7 +38,10 @@ namespace Talabat.Repository.Repositories
 			//	return  _dbContext.Set<Product>().Where(P => P.id == id).Include(P => P.Brand).Include(P => P.Category).FirstOrDefault() as T;
 			//}
 
-			 return await _dbContext.Set<T>().FindAsync(id);
+			 var tem = await _dbContext.Set<T>().FindAsync(id);
+			if (tem == null)
+				return null;
+			return tem;
 
 		}
 
@@ -70,8 +73,6 @@ namespace Talabat.Repository.Repositories
 			return await ApplySpecifications(spec).CountAsync();
 			
 		
-
-		
 		}
 		private IQueryable<T> ApplySpecifications(ISpecifications<T> spec) 
 		{
@@ -82,7 +83,21 @@ namespace Talabat.Repository.Repositories
 		}
 
 		 public async Task AddAsync(T entity) => await _dbContext.Set<T>().AddAsync(entity);
-			
-		
+
+		public void Update(T entity)
+		{
+			if (entity is not null)
+			{
+				_dbContext.Entry(entity).State = EntityState.Modified;
+				_dbContext.Set<T>().Update(entity);
+					
+			}
+		}
+
+		public void Delete(T entity)
+		{
+			_dbContext.Entry(entity).State = EntityState.Deleted;
+
+		}
 	}
 }

@@ -282,6 +282,54 @@
           }
         }
       },
+      "delete": {
+        "tags": [
+          "Basket"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CustomerBasket"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CustomerBasket"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/CustomerBasket"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "$ref": "#/components/schemas/JsonResult"
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/JsonResult"
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/JsonResult"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Basket/Create": {
       "post": {
         "tags": [
           "Basket"
@@ -327,26 +375,28 @@
             }
           }
         }
-      },
-      "delete": {
+      }
+    },
+    "/api/Ordres/CreateOrder": {
+      "post": {
         "tags": [
-          "Basket"
+          "Ordres"
         ],
         "requestBody": {
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/CustomerBasket"
+                "$ref": "#/components/schemas/CreatedOrderInfosDTO"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/CustomerBasket"
+                "$ref": "#/components/schemas/CreatedOrderInfosDTO"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/CustomerBasket"
+                "$ref": "#/components/schemas/CreatedOrderInfosDTO"
               }
             }
           }
@@ -357,17 +407,55 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/JsonResult"
+                  "$ref": "#/components/schemas/Order"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/JsonResult"
+                  "$ref": "#/components/schemas/Order"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/JsonResult"
+                  "$ref": "#/components/schemas/Order"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/Ordres/GetAllOrders": {
+      "get": {
+        "tags": [
+          "Ordres"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Order"
+                  }
+                }
+              },
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Order"
+                  }
+                }
+              },
+              "text/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/Order"
+                  }
                 }
               }
             }
@@ -596,6 +684,32 @@
         },
         "additionalProperties": false
       },
+      "AddressShipping": {
+        "type": "object",
+        "properties": {
+          "fName": {
+            "type": "string",
+            "nullable": true
+          },
+          "lName": {
+            "type": "string",
+            "nullable": true
+          },
+          "street": {
+            "type": "string",
+            "nullable": true
+          },
+          "city": {
+            "type": "string",
+            "nullable": true
+          },
+          "country": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "BasketItem": {
         "type": "object",
         "properties": {
@@ -626,6 +740,28 @@
           "type": {
             "type": "string",
             "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CreatedOrderInfosDTO": {
+        "required": [
+          "basketId",
+          "deliveryMethodId",
+          "shippingAddress"
+        ],
+        "type": "object",
+        "properties": {
+          "basketId": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "deliveryMethodId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "shippingAddress": {
+            "$ref": "#/components/schemas/AddressDto"
           }
         },
         "additionalProperties": false
@@ -693,6 +829,32 @@
         },
         "additionalProperties": false
       },
+      "DeliveryMethod": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "shortName": {
+            "type": "string",
+            "nullable": true
+          },
+          "description": {
+            "type": "string",
+            "nullable": true
+          },
+          "deliveryTime": {
+            "type": "string",
+            "nullable": true
+          },
+          "cost": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
       "JsonResult": {
         "type": "object",
         "properties": {
@@ -727,6 +889,99 @@
           },
           "rememberMe": {
             "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      },
+      "Order": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "buyerEmail": {
+            "type": "string",
+            "nullable": true
+          },
+          "orderDate": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "shippingAddress": {
+            "$ref": "#/components/schemas/AddressShipping"
+          },
+          "orderItems": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/OrderItem"
+            },
+            "nullable": true
+          },
+          "orderStatus": {
+            "$ref": "#/components/schemas/OrderStatus"
+          },
+          "deliveryMethod": {
+            "$ref": "#/components/schemas/DeliveryMethod"
+          },
+          "subTotal": {
+            "type": "number",
+            "format": "double"
+          },
+          "paymentIntentId": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "OrderItem": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "product": {
+            "$ref": "#/components/schemas/ProductInfo"
+          },
+          "productPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "quantity": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "OrderStatus": {
+        "enum": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "ProductInfo": {
+        "type": "object",
+        "properties": {
+          "productId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "productName": {
+            "type": "string",
+            "nullable": true
+          },
+          "productUrl": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false

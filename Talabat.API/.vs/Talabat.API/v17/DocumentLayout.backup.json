@@ -3,40 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\DELL 5540\\source\\repos\\Talabat.APIs.sln\\Talabat.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C6CB9585-E4A2-4BBE-9E18-A101B2AF127E}|Talabat.API.csproj|c:\\users\\dell 5540\\source\\repos\\talabat.apis.sln\\talabat.api\\talabat.service\\obj\\debug\\net8.0\\.netcoreapp,version=v8.0.assemblyattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6CB9585-E4A2-4BBE-9E18-A101B2AF127E}|Talabat.API.csproj|solutionrelative:talabat.service\\obj\\debug\\net8.0\\.netcoreapp,version=v8.0.assemblyattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F676F090-E789-42ED-B877-2105FC30BF4B}|..\\Talabat.Core\\Talabat.Core.csproj|c:\\users\\dell 5540\\source\\repos\\talabat.apis.sln\\talabat.core\\specifications\\productspecs\\countafterfilterationndsortingwithoutpaginationforproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6CB9585-E4A2-4BBE-9E18-A101B2AF127E}|Talabat.API.csproj|c:\\users\\dell 5540\\source\\repos\\talabat.apis.sln\\talabat.api\\talabat.service\\obj\\release\\net8.0\\.netcoreapp,version=v8.0.assemblyattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6CB9585-E4A2-4BBE-9E18-A101B2AF127E}|Talabat.API.csproj|solutionrelative:talabat.service\\obj\\release\\net8.0\\.netcoreapp,version=v8.0.assemblyattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C6CB9585-E4A2-4BBE-9E18-A101B2AF127E}|Talabat.API.csproj|c:\\users\\dell 5540\\source\\repos\\talabat.apis.sln\\talabat.api\\helpers\\pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6CB9585-E4A2-4BBE-9E18-A101B2AF127E}|Talabat.API.csproj|solutionrelative:helpers\\pagination.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6CB9585-E4A2-4BBE-9E18-A101B2AF127E}|Talabat.API.csproj|c:\\users\\dell 5540\\source\\repos\\talabat.apis.sln\\talabat.api\\talabat.core\\obj\\release\\net8.0\\.netcoreapp,version=v8.0.assemblyattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6CB9585-E4A2-4BBE-9E18-A101B2AF127E}|Talabat.API.csproj|solutionrelative:talabat.core\\obj\\release\\net8.0\\.netcoreapp,version=v8.0.assemblyattributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F676F090-E789-42ED-B877-2105FC30BF4B}|..\\Talabat.Core\\Talabat.Core.csproj|c:\\users\\dell 5540\\source\\repos\\talabat.apis.sln\\talabat.core\\specifications\\productspecs\\productparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL 5540\\source\\repos\\Talabat.APIs.sln\\Talabat.API\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F676F090-E789-42ED-B877-2105FC30BF4B}|..\\Talabat.Core\\Talabat.Core.csproj|c:\\users\\dell 5540\\source\\repos\\talabat.apis.sln\\talabat.core\\specifications\\productspecs\\productwithbrandandcategoryspecifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\DELL 5540\\source\\repos\\Talabat.APIs.sln\\Talabat.API\\obj\\Debug\\net8.0\\Talabat.API.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Debug\\net8.0\\Talabat.API.AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C6CB9585-E4A2-4BBE-9E18-A101B2AF127E}|Talabat.API.csproj|c:\\users\\dell 5540\\source\\repos\\talabat.apis.sln\\talabat.api\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6CB9585-E4A2-4BBE-9E18-A101B2AF127E}|Talabat.API.csproj|solutionrelative:controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6CB9585-E4A2-4BBE-9E18-A101B2AF127E}|Talabat.API.csproj|c:\\users\\dell 5540\\source\\repos\\talabat.apis.sln\\talabat.api\\talabat.service\\obj\\release\\net8.0\\talabat.service.assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6CB9585-E4A2-4BBE-9E18-A101B2AF127E}|Talabat.API.csproj|solutionrelative:talabat.service\\obj\\release\\net8.0\\talabat.service.assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB5FB342-75A5-4994-B9D3-8F02BCDC6890}|..\\Talabat.Repository\\Talabat.Repository.csproj|c:\\users\\dell 5540\\source\\repos\\talabat.apis.sln\\talabat.repository\\repositories\\genaricrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6CB9585-E4A2-4BBE-9E18-A101B2AF127E}|Talabat.API.csproj|c:\\users\\dell 5540\\source\\repos\\talabat.apis.sln\\talabat.api\\talabat.service\\obj\\debug\\net8.0\\talabat.service.assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6CB9585-E4A2-4BBE-9E18-A101B2AF127E}|Talabat.API.csproj|solutionrelative:talabat.service\\obj\\debug\\net8.0\\talabat.service.assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FB5FB342-75A5-4994-B9D3-8F02BCDC6890}|..\\Talabat.Repository\\Talabat.Repository.csproj|c:\\users\\dell 5540\\source\\repos\\talabat.apis.sln\\talabat.repository\\specificationsevaluator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6CB9585-E4A2-4BBE-9E18-A101B2AF127E}|Talabat.API.csproj|c:\\users\\dell 5540\\source\\repos\\talabat.apis.sln\\talabat.api\\talabat.core\\obj\\release\\net8.0\\talabat.core.assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6CB9585-E4A2-4BBE-9E18-A101B2AF127E}|Talabat.API.csproj|solutionrelative:talabat.core\\obj\\release\\net8.0\\talabat.core.assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F676F090-E789-42ED-B877-2105FC30BF4B}|..\\Talabat.Core\\Talabat.Core.csproj|c:\\users\\dell 5540\\source\\repos\\talabat.apis.sln\\talabat.core\\specifications\\basespecifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C6CB9585-E4A2-4BBE-9E18-A101B2AF127E}|Talabat.API.csproj|c:\\users\\dell 5540\\source\\repos\\talabat.apis.sln\\talabat.api\\talabat.core\\obj\\debug\\net8.0\\talabat.core.assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C6CB9585-E4A2-4BBE-9E18-A101B2AF127E}|Talabat.API.csproj|solutionrelative:talabat.core\\obj\\debug\\net8.0\\talabat.core.assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C6CB9585-E4A2-4BBE-9E18-A101B2AF127E}|Talabat.API.csproj|c:\\users\\dell 5540\\source\\repos\\talabat.apis.sln\\talabat.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C6CB9585-E4A2-4BBE-9E18-A101B2AF127E}|Talabat.API.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F676F090-E789-42ED-B877-2105FC30BF4B}|..\\Talabat.Core\\Talabat.Core.csproj|c:\\users\\dell 5540\\source\\repos\\talabat.apis.sln\\talabat.core\\specifications\\ispecifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F676F090-E789-42ED-B877-2105FC30BF4B}|..\\Talabat.Core\\Talabat.Core.csproj|c:\\users\\dell 5540\\source\\repos\\talabat.apis.sln\\talabat.core\\repositories.contracts\\igenaricrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,127 +46,156 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ProductsController.cs",
+              "DocumentMoniker": "C:\\Users\\DELL 5540\\source\\repos\\Talabat.APIs.sln\\Talabat.API\\Controllers\\ProductsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductsController.cs",
+              "ToolTip": "C:\\Users\\DELL 5540\\source\\repos\\Talabat.APIs.sln\\Talabat.API\\Controllers\\ProductsController.cs",
+              "RelativeToolTip": "Controllers\\ProductsController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAIAwwCwAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-17T22:04:26.824Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GenaricRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DELL 5540\\source\\repos\\Talabat.APIs.sln\\Talabat.Repository\\Repositories\\GenaricRepository.cs",
+              "RelativeDocumentMoniker": "..\\Talabat.Repository\\Repositories\\GenaricRepository.cs",
+              "ToolTip": "C:\\Users\\DELL 5540\\source\\repos\\Talabat.APIs.sln\\Talabat.Repository\\Repositories\\GenaricRepository.cs",
+              "RelativeToolTip": "..\\Talabat.Repository\\Repositories\\GenaricRepository.cs",
+              "ViewState": "AgIAAEMAAAAAAAAAAAAowEsAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-18T00:33:24.003Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SpecificationsEvaluator.cs",
+              "DocumentMoniker": "C:\\Users\\DELL 5540\\source\\repos\\Talabat.APIs.sln\\Talabat.Repository\\SpecificationsEvaluator.cs",
+              "RelativeDocumentMoniker": "..\\Talabat.Repository\\SpecificationsEvaluator.cs",
+              "ToolTip": "C:\\Users\\DELL 5540\\source\\repos\\Talabat.APIs.sln\\Talabat.Repository\\SpecificationsEvaluator.cs",
+              "RelativeToolTip": "..\\Talabat.Repository\\SpecificationsEvaluator.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAewDQAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-17T22:24:41.878Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": ".NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
-              "DocumentMoniker": "C:\\Users\\DELL 5540\\source\\repos\\Talabat.APIs.sln\\Talabat.API\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
-              "RelativeDocumentMoniker": "obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
-              "ToolTip": "C:\\Users\\DELL 5540\\source\\repos\\Talabat.APIs.sln\\Talabat.API\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
-              "RelativeToolTip": "obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-09T21:37:24.263Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": ".NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
-              "DocumentMoniker": "C:\\Users\\DELL 5540\\source\\repos\\Talabat.APIs.sln\\Talabat.API\\Talabat.Core\\obj\\Release\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
-              "RelativeDocumentMoniker": "Talabat.Core\\obj\\Release\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
-              "ToolTip": "C:\\Users\\DELL 5540\\source\\repos\\Talabat.APIs.sln\\Talabat.API\\Talabat.Core\\obj\\Release\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
-              "RelativeToolTip": "Talabat.Core\\obj\\Release\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAACAAAAAAAAAA==",
+              "Title": "ProductParams.cs",
+              "DocumentMoniker": "C:\\Users\\DELL 5540\\source\\repos\\Talabat.APIs.sln\\Talabat.Core\\Specifications\\ProductSpecs\\ProductParams.cs",
+              "RelativeDocumentMoniker": "..\\Talabat.Core\\Specifications\\ProductSpecs\\ProductParams.cs",
+              "ToolTip": "C:\\Users\\DELL 5540\\source\\repos\\Talabat.APIs.sln\\Talabat.Core\\Specifications\\ProductSpecs\\ProductParams.cs",
+              "RelativeToolTip": "..\\Talabat.Core\\Specifications\\ProductSpecs\\ProductParams.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-09T21:37:19.566Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": ".NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
-              "DocumentMoniker": "C:\\Users\\DELL 5540\\source\\repos\\Talabat.APIs.sln\\Talabat.API\\Talabat.Service\\obj\\Release\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
-              "RelativeDocumentMoniker": "Talabat.Service\\obj\\Release\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
-              "ToolTip": "C:\\Users\\DELL 5540\\source\\repos\\Talabat.APIs.sln\\Talabat.API\\Talabat.Service\\obj\\Release\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
-              "RelativeToolTip": "Talabat.Service\\obj\\Release\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-09T21:37:15.106Z",
+              "WhenOpened": "2025-08-18T00:38:00.49Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": ".NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
-              "DocumentMoniker": "C:\\Users\\DELL 5540\\source\\repos\\Talabat.APIs.sln\\Talabat.API\\Talabat.Service\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
-              "RelativeDocumentMoniker": "Talabat.Service\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
-              "ToolTip": "C:\\Users\\DELL 5540\\source\\repos\\Talabat.APIs.sln\\Talabat.API\\Talabat.Service\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
-              "RelativeToolTip": "Talabat.Service\\obj\\Debug\\net8.0\\.NETCoreApp,Version=v8.0.AssemblyAttributes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Title": "CountAfterFilterationNdSortingWithoutPaginationForProduct.cs",
+              "DocumentMoniker": "C:\\Users\\DELL 5540\\source\\repos\\Talabat.APIs.sln\\Talabat.Core\\Specifications\\ProductSpecs\\CountAfterFilterationNdSortingWithoutPaginationForProduct.cs",
+              "RelativeDocumentMoniker": "..\\Talabat.Core\\Specifications\\ProductSpecs\\CountAfterFilterationNdSortingWithoutPaginationForProduct.cs",
+              "ToolTip": "C:\\Users\\DELL 5540\\source\\repos\\Talabat.APIs.sln\\Talabat.Core\\Specifications\\ProductSpecs\\CountAfterFilterationNdSortingWithoutPaginationForProduct.cs",
+              "RelativeToolTip": "..\\Talabat.Core\\Specifications\\ProductSpecs\\CountAfterFilterationNdSortingWithoutPaginationForProduct.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAWwAsAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-09T21:37:10.129Z",
+              "WhenOpened": "2025-08-17T23:35:14.852Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Talabat.API.AssemblyInfo.cs",
-              "DocumentMoniker": "C:\\Users\\DELL 5540\\source\\repos\\Talabat.APIs.sln\\Talabat.API\\obj\\Debug\\net8.0\\Talabat.API.AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "obj\\Debug\\net8.0\\Talabat.API.AssemblyInfo.cs",
-              "ToolTip": "C:\\Users\\DELL 5540\\source\\repos\\Talabat.APIs.sln\\Talabat.API\\obj\\Debug\\net8.0\\Talabat.API.AssemblyInfo.cs",
-              "RelativeToolTip": "obj\\Debug\\net8.0\\Talabat.API.AssemblyInfo.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAYwBMAAABDAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "ProductWithBrandAndCategorySpecifications.cs",
+              "DocumentMoniker": "C:\\Users\\DELL 5540\\source\\repos\\Talabat.APIs.sln\\Talabat.Core\\Specifications\\ProductSpecs\\ProductWithBrandAndCategorySpecifications.cs",
+              "RelativeDocumentMoniker": "..\\Talabat.Core\\Specifications\\ProductSpecs\\ProductWithBrandAndCategorySpecifications.cs",
+              "ToolTip": "C:\\Users\\DELL 5540\\source\\repos\\Talabat.APIs.sln\\Talabat.Core\\Specifications\\ProductSpecs\\ProductWithBrandAndCategorySpecifications.cs",
+              "RelativeToolTip": "..\\Talabat.Core\\Specifications\\ProductSpecs\\ProductWithBrandAndCategorySpecifications.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAwAoAAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-09T21:33:32.899Z",
+              "WhenOpened": "2025-08-17T23:35:21.777Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "Talabat.Core.AssemblyInfo.cs",
-              "DocumentMoniker": "C:\\Users\\DELL 5540\\source\\repos\\Talabat.APIs.sln\\Talabat.API\\Talabat.Core\\obj\\Release\\net8.0\\Talabat.Core.AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "Talabat.Core\\obj\\Release\\net8.0\\Talabat.Core.AssemblyInfo.cs",
-              "ToolTip": "C:\\Users\\DELL 5540\\source\\repos\\Talabat.APIs.sln\\Talabat.API\\Talabat.Core\\obj\\Release\\net8.0\\Talabat.Core.AssemblyInfo.cs",
-              "RelativeToolTip": "Talabat.Core\\obj\\Release\\net8.0\\Talabat.Core.AssemblyInfo.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAABDAAAAAAAAAA==",
+              "Title": "BaseSpecifications.cs",
+              "DocumentMoniker": "C:\\Users\\DELL 5540\\source\\repos\\Talabat.APIs.sln\\Talabat.Core\\Specifications\\BaseSpecifications.cs",
+              "RelativeDocumentMoniker": "..\\Talabat.Core\\Specifications\\BaseSpecifications.cs",
+              "ToolTip": "C:\\Users\\DELL 5540\\source\\repos\\Talabat.APIs.sln\\Talabat.Core\\Specifications\\BaseSpecifications.cs",
+              "RelativeToolTip": "..\\Talabat.Core\\Specifications\\BaseSpecifications.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-09T21:32:38.84Z",
+              "WhenOpened": "2025-08-17T22:25:37.181Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Pagination.cs",
+              "DocumentMoniker": "C:\\Users\\DELL 5540\\source\\repos\\Talabat.APIs.sln\\Talabat.API\\Helpers\\Pagination.cs",
+              "RelativeDocumentMoniker": "Helpers\\Pagination.cs",
+              "ToolTip": "C:\\Users\\DELL 5540\\source\\repos\\Talabat.APIs.sln\\Talabat.API\\Helpers\\Pagination.cs",
+              "RelativeToolTip": "Helpers\\Pagination.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-17T22:23:47.024Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Talabat.Core.AssemblyInfo.cs",
-              "DocumentMoniker": "C:\\Users\\DELL 5540\\source\\repos\\Talabat.APIs.sln\\Talabat.API\\Talabat.Core\\obj\\Debug\\net8.0\\Talabat.Core.AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "Talabat.Core\\obj\\Debug\\net8.0\\Talabat.Core.AssemblyInfo.cs",
-              "ToolTip": "C:\\Users\\DELL 5540\\source\\repos\\Talabat.APIs.sln\\Talabat.API\\Talabat.Core\\obj\\Debug\\net8.0\\Talabat.Core.AssemblyInfo.cs",
-              "RelativeToolTip": "Talabat.Core\\obj\\Debug\\net8.0\\Talabat.Core.AssemblyInfo.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAABDAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DELL 5540\\source\\repos\\Talabat.APIs.sln\\Talabat.API\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\DELL 5540\\source\\repos\\Talabat.APIs.sln\\Talabat.API\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAQwA4AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-09T21:32:27.759Z",
+              "WhenOpened": "2025-08-17T23:29:30.075Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Talabat.Service.AssemblyInfo.cs",
-              "DocumentMoniker": "C:\\Users\\DELL 5540\\source\\repos\\Talabat.APIs.sln\\Talabat.API\\Talabat.Service\\obj\\Debug\\net8.0\\Talabat.Service.AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "Talabat.Service\\obj\\Debug\\net8.0\\Talabat.Service.AssemblyInfo.cs",
-              "ToolTip": "C:\\Users\\DELL 5540\\source\\repos\\Talabat.APIs.sln\\Talabat.API\\Talabat.Service\\obj\\Debug\\net8.0\\Talabat.Service.AssemblyInfo.cs",
-              "RelativeToolTip": "Talabat.Service\\obj\\Debug\\net8.0\\Talabat.Service.AssemblyInfo.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAABDAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "ISpecifications.cs",
+              "DocumentMoniker": "C:\\Users\\DELL 5540\\source\\repos\\Talabat.APIs.sln\\Talabat.Core\\Specifications\\ISpecifications.cs",
+              "RelativeDocumentMoniker": "..\\Talabat.Core\\Specifications\\ISpecifications.cs",
+              "ToolTip": "C:\\Users\\DELL 5540\\source\\repos\\Talabat.APIs.sln\\Talabat.Core\\Specifications\\ISpecifications.cs",
+              "RelativeToolTip": "..\\Talabat.Core\\Specifications\\ISpecifications.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-09T21:28:33.246Z",
+              "WhenOpened": "2025-08-17T22:25:19.206Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Talabat.Service.AssemblyInfo.cs",
-              "DocumentMoniker": "C:\\Users\\DELL 5540\\source\\repos\\Talabat.APIs.sln\\Talabat.API\\Talabat.Service\\obj\\Release\\net8.0\\Talabat.Service.AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "Talabat.Service\\obj\\Release\\net8.0\\Talabat.Service.AssemblyInfo.cs",
-              "ToolTip": "C:\\Users\\DELL 5540\\source\\repos\\Talabat.APIs.sln\\Talabat.API\\Talabat.Service\\obj\\Release\\net8.0\\Talabat.Service.AssemblyInfo.cs",
-              "RelativeToolTip": "Talabat.Service\\obj\\Release\\net8.0\\Talabat.Service.AssemblyInfo.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "IGenaricRepository.cs",
+              "DocumentMoniker": "C:\\Users\\DELL 5540\\source\\repos\\Talabat.APIs.sln\\Talabat.Core\\Repositories.Contracts\\IGenaricRepository.cs",
+              "RelativeDocumentMoniker": "..\\Talabat.Core\\Repositories.Contracts\\IGenaricRepository.cs",
+              "ToolTip": "C:\\Users\\DELL 5540\\source\\repos\\Talabat.APIs.sln\\Talabat.Core\\Repositories.Contracts\\IGenaricRepository.cs",
+              "RelativeToolTip": "..\\Talabat.Core\\Repositories.Contracts\\IGenaricRepository.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAewBQAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-09T21:28:22.318Z",
+              "WhenOpened": "2025-08-17T22:05:13.257Z",
               "EditorCaption": ""
             }
           ]

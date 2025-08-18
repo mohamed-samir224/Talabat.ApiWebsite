@@ -179,10 +179,10 @@ C:\Users\DELL 5540\source\repos\Talabat.APIs.sln\Talabat.API\obj\Debug\net8.0\st
 C:\Users\DELL 5540\source\repos\Talabat.APIs.sln\Talabat.API\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\DELL 5540\source\repos\Talabat.APIs.sln\Talabat.API\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\DELL 5540\source\repos\Talabat.APIs.sln\Talabat.API\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Users\DELL 5540\source\repos\Talabat.APIs.sln\Talabat.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\DELL 5540\source\repos\Talabat.APIs.sln\Talabat.API\obj\Debug\net8.0\Talabat..B9E15ED8.Up2Date
 C:\Users\DELL 5540\source\repos\Talabat.APIs.sln\Talabat.API\obj\Debug\net8.0\Talabat.API.dll
 C:\Users\DELL 5540\source\repos\Talabat.APIs.sln\Talabat.API\obj\Debug\net8.0\refint\Talabat.API.dll
 C:\Users\DELL 5540\source\repos\Talabat.APIs.sln\Talabat.API\obj\Debug\net8.0\Talabat.API.pdb
 C:\Users\DELL 5540\source\repos\Talabat.APIs.sln\Talabat.API\obj\Debug\net8.0\Talabat.API.genruntimeconfig.cache
 C:\Users\DELL 5540\source\repos\Talabat.APIs.sln\Talabat.API\obj\Debug\net8.0\ref\Talabat.API.dll
+C:\Users\DELL 5540\source\repos\Talabat.APIs.sln\Talabat.API\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

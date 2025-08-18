@@ -35,14 +35,14 @@ namespace Talabat.API.Controllers
 				return BadRequest(new ApiResponse(400));
 			
 		}
-		[HttpPost]
+		[HttpPost("Create")]
 		public async Task<ActionResult<CustomerBasket>> CreateBasket(CustomerBasketDto customerBasket) 
 		{
 			var MappedCustomerBasket =  _mapper.Map<CustomerBasketDto, CustomerBasket>(customerBasket);
 
 			if (customerBasket is not null) 
 			{
-				var CustBasket = await _basketRepository.UpdateBasketAsync(MappedCustomerBasket);
+				var CustBasket = await _basketRepository.CreateOrUpdateBasketAsync(MappedCustomerBasket);
 				if(CustBasket is not null)
 					return Ok(CustBasket);
 				else

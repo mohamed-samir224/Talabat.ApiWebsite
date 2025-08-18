@@ -14,15 +14,14 @@ namespace Talabat.Repository.Repositories
 {
 	public class BasketRepository : IBasketRepository
 	{
+
 		private readonly IDatabase _database;
+
 		public BasketRepository(IConnectionMultiplexer Redis)
 		{
 			_database = Redis.GetDatabase();
 		}
-		public async Task<bool> DeleteBasketAsync(string basketId)
-		{
-			return await _database.KeyDeleteAsync(basketId);
-		}
+		
 
 		public async Task<CustomerBasket?> GetBasketAsync(string basketId)
 		{
@@ -43,20 +42,22 @@ namespace Talabat.Repository.Repositories
 
 		}
 
-		public async Task<CustomerBasket?> UpdateBasketAsync(CustomerBasket basket)
+		public async Task<CustomerBasket?> CreateOrUpdateBasketAsync(CustomerBasket basket)
 		{
-			var CreateOrUpdate = await _database.StringSetAsync(basket.Id, JsonSerializer.Serialize(basket), TimeSpan.FromDays(1));
-
+			// الميثود دي بتخليك تحدث الباسكت لو هي بالفعل موجوده بتتجقق من بياناتها لو بيانتها فيها اختلاف بتعدلها للجديده لو مش موجوده بتنشئها 
+			//											|
+			//											V		
+			var CreateOrUpdate = await _database.StringSetAsync(basket.Id, JsonSerializer.Serialize(basket), TimeSpan.FromDays(1)); 
 			if(CreateOrUpdate)
 			return await GetBasketAsync(basket.Id);
 			else 
 				return null;
+	    }
 
-			
-				
-				
-				
-				
-				}
+
+		public async Task<bool> DeleteBasketAsync(string basketId)
+		{
+			return await _database.KeyDeleteAsync(basketId);
+		}
 	}
 }

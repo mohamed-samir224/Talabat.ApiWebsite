@@ -35,14 +35,14 @@ namespace Talabat.API.Controllers
 	
 			var Products = await _genaricRepository.GetAllWithSpecAsync(spec);
 
-			var data = _mapper.Map<IReadOnlyList<Product>, IReadOnlyList<ProductToReturnDto>>(Products);
+			var data = _mapper.Map<IReadOnlyList<Product>,IReadOnlyList<ProductToReturnDto>>(Products);
 
 			var specforCount = new CountAfterFilterationNdSortingWithoutPaginationForProduct(productParams);
 
 			var Count = await _genaricRepository.GetCountWithSpecAsync(specforCount);
 
 
-			return Ok( new Pagination<ProductToReturnDto>(productParams.PageSize , productParams.PageIndex, Count, data));
+			return Ok(new Pagination<ProductToReturnDto>(productParams.PageSize , productParams.PageIndex, Count, data));
 		}
 
 

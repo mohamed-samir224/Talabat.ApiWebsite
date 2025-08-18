@@ -8,17 +8,17 @@ namespace Talabat.API.Extentions
 	public static class UserManagerExtentions
 	{
 
-		public static async Task<AppUser> GetUserWithAddressAsync(this UserManager<AppUser> userManager , ClaimsPrincipal User ) 
+		public static async Task<AppUser?> GetUserWithAddressAsync(this UserManager<AppUser> userManager , ClaimsPrincipal User ) 
 		{
 
 			var Email = User.FindFirstValue(ClaimTypes.Email);
 
-			var user = await userManager.Users.Include(U => U.Address)
+			var user = await userManager.Users.Include(U =>  U.Address)
 				.FirstOrDefaultAsync(U =>U.Email == Email);
 
-
+			if(user is not null)
 			return user;
-		
+			return null;
 		}
 	}
 }

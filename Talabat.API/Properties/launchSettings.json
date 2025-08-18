@@ -39,3 +39,8 @@
     }
   }
 }
+
+//iis express  local web server built in with  vs 
+//  Kestrel  local web server built in with .Net Core
+// if u need to run Kestrel  u need to create profile in launchSetting.json 
+// or using terminal in vs and write command   (Dotnet run) by default will run Kestrel

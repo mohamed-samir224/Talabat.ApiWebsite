@@ -171,8 +171,34 @@
   },
   {
     "ContainingType": "Talabat.API.Controllers.BasketController",
-    "Method": "CreateBasket",
+    "Method": "DeleteBasket",
     "RelativePath": "api/Basket",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "customerBasket",
+        "Type": "Talabat.Core.Entities.CustomerBasket",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Microsoft.AspNetCore.Mvc.JsonResult",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Talabat.API.Controllers.BasketController",
+    "Method": "CreateBasket",
+    "RelativePath": "api/Basket/Create",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -196,22 +222,42 @@
     ]
   },
   {
-    "ContainingType": "Talabat.API.Controllers.BasketController",
-    "Method": "DeleteBasket",
-    "RelativePath": "api/Basket",
-    "HttpMethod": "DELETE",
+    "ContainingType": "Talabat.API.Controllers.OrdresController",
+    "Method": "CreateOrder",
+    "RelativePath": "api/Ordres/CreateOrder",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "customerBasket",
-        "Type": "Talabat.Core.Entities.CustomerBasket",
+        "Name": "OrderInfos",
+        "Type": "Talabat.API.Dtos.OrderDTOS.CreatedOrderInfosDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "Microsoft.AspNetCore.Mvc.JsonResult",
+        "Type": "Talabat.Core.Entities.OrderAggregate.Order",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Talabat.API.Controllers.OrdresController",
+    "Method": "GetAllOrders",
+    "RelativePath": "api/Ordres/GetAllOrders",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IReadOnlyList\u00601[[Talabat.Core.Entities.OrderAggregate.Order, Talabat.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -282,7 +328,7 @@
     ],
     "ReturnTypes": [
       {
-        "Type": "Talabat.API.Helpers.Pagination\u00601[[Talabat.API.Dtos.ProductToReturnDto, Talabat.API, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "Talabat.API.Helpers.Pagination\u00601[[Talabat.API.Dtos.ProductToReturnDto, Talabat.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -328,7 +374,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[Talabat.API.WeatherForecast, Talabat.API, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[Talabat.API.WeatherForecast, Talabat.API, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",

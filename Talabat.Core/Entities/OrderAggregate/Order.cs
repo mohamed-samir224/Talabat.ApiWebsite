@@ -26,7 +26,7 @@ namespace Talabat.Core.Entities.OrderAggregate
 
 
 		//public string AddressShippingId { get; set; } // Foreign key to the AddressShipping entity
-		public AddressShipping ShippingAddress { get; set; }
+		public AddressShipping? ShippingAddress { get; set; }
 		public ICollection<OrderItem> OrderItems { get; set; } = new HashSet<OrderItem>();
 		public OrderStatus OrderStatus { get; set; } = OrderStatus.Pending;
         public DeliveryMethod DeliveryMethod { get; set; }

@@ -15,17 +15,17 @@ namespace Talabat.Core.Entities.OrderAggregate
 			LName = lastName;
 			Street = street;
 			City = city;
-			State = state;
+			//State = state;
 			Country = country;
-			PhoneNumber = phoneNumber;
+			//PhoneNumber = phoneNumber;
 		}
         public string FName { get; set; }
 		public string LName { get; set; }
 		public string Street { get; set; }
 		public string City { get; set; }
-		public string State { get; set; }
+		//public string State { get; set; }
 		public string Country { get; set; }
-		public string PhoneNumber { get; set; }
+		//public string PhoneNumber { get; set; }
 
 		//public string OrderId { get; set; } // Foreign key to the Order entity
 		//public Order Order { get; set; } // Navigation property to the Order entity

@@ -95,7 +95,7 @@ namespace Talabat.API
                 var connection = builder.Configuration.GetConnectionString("Redis");
 
                 return ConnectionMultiplexer.Connect(connection);
-
+                    
 
             });
             builder.Services.AddScoped(typeof(IBasketRepository), typeof(BasketRepository)); 
@@ -123,7 +123,12 @@ namespace Talabat.API
                 );
 			#endregion
 
-           
+
+
+			builder.Services.AddScoped(typeof(IUnitofwork), typeof(Unitofwork));
+            builder.Services.AddScoped(typeof(IOrderService), typeof(OrderService));
+
+
 			var app = builder.Build();
 
             #region Ask CLR Explicitly Creating Obj From Services

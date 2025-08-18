@@ -11,7 +11,7 @@ namespace Talabat.Core.Specifications.ProductSpecs
     {
 		public CountAfterFilterationNdSortingWithoutPaginationForProduct(ProductParams productParams)
 			:base( P => (string.IsNullOrEmpty(productParams.Search) || P.Name.Contains(productParams.Search))&&
-			        (!productParams.brandId.HasValue || P.BrandId == productParams.brandId.Value)&&  // كدا كدا الجزء التاني من ال ||  هيديني ترو ف هيطلع ترو ف مش هزعل اني عامل   (!) قدام عكستلي الحقيق)
+			        (!productParams.brandId.HasValue || P.BrandId == productParams.brandId.Value)&&  // كدا كدا الجزء التاني من ال ||, هيديني ترو ف هيطلع ترو ف مش هزعل اني عامل   (!) قدام عكستلي الحقيق)
 					(!productParams.categoryId.HasValue || P.CategoryId == productParams.categoryId.Value))
 		{
 

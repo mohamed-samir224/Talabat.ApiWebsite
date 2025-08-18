@@ -23,7 +23,7 @@ namespace Talabat.Core.Specifications
 		{
 				
 		}
-        public BaseSpecifications(Expression<Func<T, bool>> criteriaexpression)
+        public BaseSpecifications(Expression<Func<T,bool>> criteriaexpression)
         {
             criteria = criteriaexpression;
 
@@ -36,8 +36,11 @@ namespace Talabat.Core.Specifications
 			IsPagingEnabled = true;
 
 			Skip = skip?? 0; // if skip is null then set it to 0
-			Take = take?? 5; // if take is null then set it to 10
 
+			if (take == 0)
+				Take = 5; // if take is null then set it to 10
+			else
+				Take = (int)take;
 
 		}
 

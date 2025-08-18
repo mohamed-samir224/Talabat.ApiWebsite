@@ -50,25 +50,27 @@ namespace Talabat.API.Controllers
 		public async Task<ActionResult<UserDto>> Register(RegisterDto model)
 		{
 
-			if(UserExists(model.Email) is { })
+			if (UserExists(model.Email) is { })
 			{
-				return BadRequest(new ApiResponse(400, "Email is already in use"));
+
+
+				var Nmodel = new AppUser()
+				{
+					DisplayName = model.DisPlayName,
+					Email = model.Email,
+					UserName = model.Email.Split("@")[0],
+					PhoneNumber = model.PhoneNumber,
+					//Address = model.UserAddress // هنا انا بربط العنوان باليوزر الجديد الي هيتسجل
+				};
+
+				var Result = await _usermanager.CreateAsync(Nmodel, model.Password);
+				if (!Result.Succeeded) { return Unauthorized(new ApiResponse(401)); }
+				var token = await _tokenservice.CreateTokenAsync(Nmodel, _usermanager);
+
+				return Ok(new UserDto() { Email = model.Email, DisPlayName = model.DisPlayName, Token = token });
 			}
 
-			var Nmodel = new AppUser()
-			{
-				DisplayName = model.DisPlayName,
-				Email = model.Email,
-				UserName = model.Email.Split("@")[0],
-				PhoneNumber = model.PhoneNumber,
-				//Address = model.UserAddress // هنا انا بربط العنوان باليوزر الجديد الي هيتسجل
-			};
-
-			var Result = await _usermanager.CreateAsync(Nmodel, model.Password);
-			if (!Result.Succeeded) { return Unauthorized(new ApiResponse(401)); }
-			var token = await _tokenservice.CreateTokenAsync(Nmodel, _usermanager);
-
-			return Ok(new UserDto() { Email = model.Email, DisPlayName = model.DisPlayName, Token = token });
+			return BadRequest(new ApiResponse(400, "Email is already in use"));
 		}
 
 
@@ -77,15 +79,14 @@ namespace Talabat.API.Controllers
 		public async Task<ActionResult<UserDto>> GetCurrentUser()
 		{
 
-			var Email = await _usermanager.FindByEmailAsync(ClaimTypes.Email);
+			var email = User.FindFirstValue(ClaimTypes.Email);
 
-			var user = await _usermanager.GetUserAsync(User);
+			var user = await _usermanager.FindByEmailAsync(email);
 
 			return Ok(new UserDto()
 			{
-
 				DisPlayName = user.DisplayName,
-				Email = user.Email,
+				Email = user.Email ,
 				Token = await _tokenservice.CreateTokenAsync(user, _usermanager)
 			});
 
@@ -114,7 +115,6 @@ namespace Talabat.API.Controllers
 			var Address = _Mapper.Map<AddressDto, Address>(NewAddress);
 			var userwithaddress = await _usermanager.GetUserWithAddressAsync(User);
 
-			Address.Id = userwithaddress.Address.Id;
 			userwithaddress.Address = Address;
 
 			var result = await _usermanager.UpdateAsync(userwithaddress);
@@ -128,9 +128,9 @@ namespace Talabat.API.Controllers
 		public async Task<ActionResult<bool>> UserExists(string email)
 		{
 			var Founded = await _usermanager.FindByEmailAsync(email) ;/*!= null*/
-			if (Founded is not null)
-				return true;
-			return false;
+			if (Founded is  null)
+				return false;
+			return true;
 		}
 	
 
